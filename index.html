@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>ClickthatCat!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/game.js"></script>
+	
+
+</head>
+
+<body>
+	
+<!-- 	Header 1 row col-6
+ -->
+ 	<div class="container">
+		<div class="row container">
+			<div class="col-8 orange-bg white-text header1 mar-bottom-20">
+				<h1>ClickthatCat!</h1>
+			</div>
+		</div>
+
+
+<!-- 	instructions 1 row 1 col-6
+ -->
+		<div class="row container">
+			<div class="col-8 beige-bg green-text instructions mar-bottom-20">
+				<!-- <h5> -->You will be given a random number at the start of the game. <br><br>
+					There are four cats (this being the internet and all) below. By clicking on a cat you will add a specific amount of points to your total score. <br><br>
+					You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.<br><br>
+					The value of each cat is hidden from you until you click on it.<br><br>
+					Each time when the game starts the game will change the values of each cat.<br><br><br><br><!-- </h5> -->
+			</div>
+		</div>
+	
+
+
+<!-- 	counters 1 row 2 col
+		target number col-4 float left
+		wins/losses col-2
+ -->
+		<div class="row container mar-bottom-20">
+			<div class="col-5 float-left green-bg purple-text target-box mar-right-5">
+				<h1><p id="target"></p></h1>
+			</div>
+			<div class="col-3 teal-bg text-center">
+				<div class="win-counter">
+					Wins: <p id="wins"></p>
+				</div>
+				<div class="losses-counter">
+					Losses: <p id="losses"></p>
+				</div>
+			</div>
+		</div>
+
+
+
+<!-- 	cats 1 row 4 column
+		col-2
+		col-2
+		col-2
+		col-2
+ -->
+		<div class="row mar-bottom-20">
+			<div class="col-md-2 col-sm-3 col-xs-4">
+				<img class=" mar-right-5 wide-define" id="first-img" src="assets/images/one.jpg">
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-4">
+				<img class="mar-right-5 wide-define" id="second-img" src="assets/images/two.jpg">
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-4">
+				<img class="mar-right-5 wide-define" id="third-img" src="assets/images/three.jpg">
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-4">
+				<img class="mar-right-5 wide-define" id="fourth-img" src="assets/images/four.jpg">
+			</div>
+		</div>
+
+<!-- 	"total thus far" 1 row 1 column
+		"your total score is" col-6
+ -->		
+		<div class="row container mar-bottom-20">
+			<div class="col-8 blue-bg white-text info">
+				Your total score is:
+			</div>
+		</div>
+
+<!-- 	total score 1 row 1 column
+		col -6 -->
+		<div class="row container">
+			<div class="col-8 blue-bg white-text score-box height60">
+				<h1><p id="score"></p></h1>
+			</div>
+		</div>
+		<br><br><br><br>
+	</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

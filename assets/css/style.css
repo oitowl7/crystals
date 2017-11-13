@@ -1,0 +1,71 @@
+.orange-bg {
+	background-color: orange;
+}
+.white-text {
+	color: white;
+	}
+.header1 {
+	padding: 20px;
+/*	margin-bottom: 20px;*/
+}
+.beige-bg {
+	background-color: #FAE5CD;
+}
+.green-text {
+	color: green;
+}
+.green-bg {
+	background-color: #5FC683;
+}
+.purple-text {
+	color: purple;
+}
+.teal-bg {
+	background-color: #52FDFB;
+}
+/*.instructions {
+	margin-bottom: 20px;*/
+}
+.target-box {
+	margin-right: 5px;
+}
+.mar-right-5 {
+	margin-right: 5px;
+}
+.mar-bottom-20 {
+	margin-bottom: 10px;
+}
+.wide-define {
+	width: 100%;
+	height: auto;
+}
+.blue-bg {
+	background-color: #33A195;
+}
+.info {
+	padding: 20px;
+}
+.height60 {
+	height: 60px;
+}
+
+body {
+	background-color: #252527;
+	background-image: url(../images/background.jpg);
+	
+	/*background-image: url("../images/background-image.png");
+	max-width: 100%;*/
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+	.wide-define {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 5px;
+	}
+}
