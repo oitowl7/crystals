@@ -22,4 +22,5 @@ This project had very few issues. It wasn't meant to necessarily test my ability
 
 ## Images of the Page
 This is what the page looks like. Notice the not at all gaudy wallpaper-style background, non-clashing div colors, and incredible css layouts. But most importantly, notice how adorable all those cats are. I mean seriously...just **look** at them.
+
 ![ClickthatCat!](https://i.imgur.com/iNTinlp.jpg)
