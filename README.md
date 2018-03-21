@@ -1,6 +1,6 @@
 # CRYSTAL CATS
-### *HOMEWORK ASSIGNMENT #4*
-## Click the Cat Because *CATS!!!!*
+### *HOMEWORK ASSIGNMENT #4:* **Click the Cat Because *CATS!!!!**
+
 [Link to Gitpages](https://oitowl7.github.io/crystals/)
 
 This assignment was done to hammer home jQuery and basic JavaScript concepts. The assignment was to create a "Random Crystal" game (with cats because internet) in which the user clicks on a cat and a random value assigned to that cat is added onto the user's score. If the user's score equals the target score the user is trying to get to, they **WIN** (nothing) and if they go over the target score, they **LOSE**.
