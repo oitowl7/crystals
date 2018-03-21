@@ -1,5 +1,5 @@
 # CRYSTAL CATS
-### *HOMEWORK ASSIGNMENT #4:* **Click the Cat Because *CATS!!!!**
+### *HOMEWORK ASSIGNMENT #4:* **Click the Cat Because *CATS!!!!* **
 
 [Link to Gitpages](https://oitowl7.github.io/crystals/)
 
